@@ -1,0 +1,7 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Published obs-websocket documentation test vectors (example password, challenge and derived auth string)"
+paths = ['''test/protocol\.test\.ts''', '''test/client\.test\.ts''']
+regexes = ['''(DOCUMENTED_CHALLENGE|DOCUMENTED_PASSWORD|FROZEN_AUTH)''']

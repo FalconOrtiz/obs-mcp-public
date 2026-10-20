@@ -1,0 +1,39 @@
+{
+  "name": "obs-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MCP server for OBS Studio over obs-websocket v5.",
+  "author": "Falcon Ortiz",
+  "homepage": "https://github.com/FalconOrtiz/obs-mcp-public#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FalconOrtiz/obs-mcp-public.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FalconOrtiz/obs-mcp-public/issues"
+  },
+  "keywords": [
+    "obs",
+    "obs-studio",
+    "obs-websocket",
+    "mcp",
+    "model-context-protocol",
+    "streaming",
+    "twitch",
+    "youtube",
+    "kick",
+    "x"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "bin": {
+    "obs-mcp": "./src/index.ts"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts",
+    "test": "node --experimental-strip-types --test --test-reporter spec test/*.test.ts"
+  }
+}

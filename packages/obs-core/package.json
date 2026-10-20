@@ -1,0 +1,9 @@
+{
+  "name": "@obs-mcp/core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "obs-websocket v5 client shared by the MCP server and the chat bot.",
+  "exports": "./src/index.ts",
+  "license": "MIT"
+}

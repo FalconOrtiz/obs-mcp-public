@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "obs-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for OBS Studio over obs-websocket v5. Scene, audio, stream, and record controls with dry-run writes.",
+  "license": "MIT",
+  "keywords": [
+    "obs",
+    "obs-studio",
+    "obs-websocket",
+    "streaming",
+    "mcp"
+  ],
+  "author": {
+    "name": "Falcon Ortiz",
+    "url": "https://github.com/FalconOrtiz"
+  },
+  "repository": "https://github.com/FalconOrtiz/obs-mcp-public"
+}

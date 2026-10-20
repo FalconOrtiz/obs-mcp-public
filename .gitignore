@@ -1,0 +1,13 @@
+node_modules/
+*.log
+.env
+.env.*
+obs-scene-backup*.json
+.DS_Store
+# local run output and state
+*.jsonl
+!test/fixtures/**/*.jsonl
+state.json
+x-state*.json
+# local OAuth helper, kept out of the repo
+scripts/x-oauth-login.mjs

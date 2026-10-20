@@ -1,0 +1,49 @@
+{
+  "kind": "youtube#liveChatMessageListResponse",
+  "etag": "fixture-etag",
+  "nextPageToken": "page-2",
+  "pollingIntervalMillis": 5000,
+  "pageInfo": {
+    "totalResults": 2,
+    "resultsPerPage": 2
+  },
+  "items": [
+    {
+      "kind": "youtube#liveChatMessage",
+      "id": "LCC.mod-1",
+      "snippet": {
+        "type": "textMessageEvent",
+        "liveChatId": "chat-1",
+        "authorChannelId": "UC-mod",
+        "publishedAt": "2026-10-17T00:00:00.000Z",
+        "hasDisplayContent": true,
+        "displayMessage": "hello from chat",
+        "textMessageDetails": {
+          "messageText": "hello from chat"
+        }
+      },
+      "authorDetails": {
+        "channelId": "UC-mod",
+        "displayName": "Mod Ada",
+        "isChatOwner": false,
+        "isChatSponsor": false,
+        "isChatModerator": true
+      }
+    },
+    {
+      "kind": "youtube#liveChatMessage",
+      "id": "LCC.ended",
+      "snippet": {
+        "type": "chatEndedEvent",
+        "liveChatId": "chat-1",
+        "publishedAt": "2026-10-17T00:00:01.000Z"
+      },
+      "authorDetails": {
+        "channelId": "UC-owner",
+        "displayName": "Owner",
+        "isChatOwner": true,
+        "isChatModerator": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@obs-mcp/bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Persona-driven chat bot that maps allow-listed commands to OBS.",
+  "exports": "./src/index.ts",
+  "license": "MIT"
+}
